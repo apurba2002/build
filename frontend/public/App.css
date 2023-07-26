@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-margin: 10px;
+}
+.navbar{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .left{
+    width: 20%;
+}
+.navbar .right{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.navbar .mid{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .mid a{
+    width: 20%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 35px;
+    font-weight: 300;
+    text-align: center;
+}
+.navbar .right a{
+    width: 50%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 35px;
+    font-weight: 300;
+    text-align: end;
+    margin-right: 20px;
+}
+.navbar .right button{
+    width: calc(30%);
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+
+}
+.main .left{
+    width: 40%;
+
+}
+.main .left h1{
+    font-size: 4rem;
+    position: relative;
+    left: 40.5%;
+    letter-spacing: 2px;
+    line-height: 20px;
+ 
+}
+.main .left p{
+   position: relative;
+   left: 40.5%;
+   width: 50%;
+}
+.main .right {
+    width: 60%;
+}
+.main .right img {
+    width: 100%;
+   height: 800px;
+   animation: mainanimation;
+   animation-duration: 2.5s;
+ 
+   float: right;
+ 
+}
+.main .left button{
+    width: calc(30%);
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 40.5%;
+    text-transform: capitalize;
+}
+.main .left :first-child{
+    margin-top: 20%;
+}
+@keyframes mainanimation {
+    from{
+        width: 0%;
+        
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.project {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.project p{
+    text-transform: capitalize;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+
+}
+.project h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.project .card-grp{
+    display: flex;
+    justify-content: space-between;
+}
+.project .card-grp .card{
+    width: 30%;
+    margin-top: 50px;
+  
+}
+.project .card-grp .card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+.project .card-grp .card p{
+    width: 90%;
+    margin-left: 5%;
+}
+#project-show button{
+    width: 10%;
+    height: 40px;
+    background:  black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    margin-left: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#project-hide button{
+    width: 10%;
+    height: 40px;
+    background:  black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    margin-left: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#project-hide{
+    display: none;
+}
+
+
+
+
+
+
+
+.rightimg{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.rightimg img{
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+.rightimg h1{
+    margin-top: 0;
+    text-transform: capitalize;
+    width: 50%;
+}
+.rightimg p{
+    margin: 0;
+
+}
+.rightimg div{
+    width: 50%;
+    margin-top: 100px;
+}
+.rightimg p{
+    width: 50%;
+}
