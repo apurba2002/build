@@ -1,3 +1,4 @@
+import Baner from './baner1';
 import logo from './logo.svg';
 import Main from './main';
 import Navbar from './navbar';
@@ -16,6 +17,7 @@ function App() {
 
       <Rightimg img="r1.webp" head="why investo club"
         txt={ritxt1} />
+        <Baner />
       <Rightimg img="r2.png" head="we give you the best returns of money"
         txt={ritxt1} />
     </>

@@ -198,7 +198,7 @@ html{
     margin-bottom: 200px;
 }
 .rightimg img{
-    width: 30%;
+    width: 45%;
     aspect-ratio: 1/1;
 }
 .rightimg h1{
@@ -211,9 +211,72 @@ html{
 
 }
 .rightimg div{
-    width: 50%;
-    margin-top: 100px;
+    width: 45%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .rightimg p{
+    width: 100%;
+}
+
+
+
+
+
+
+.baner {
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.baner p{
+    color: white;
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.baner h1{
+    color: white;
+
+    text-transform: capitalize;
+}
+.baner .grp {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.baner .grp div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.baner .grp div img {
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+.baner .grp div p{
+    width: 90%;
+    text-align: center;
+
+    text-transform: capitalize;
+
+}
+.baner .grp div h1{
     width: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    text-transform: capitalize;
 }
