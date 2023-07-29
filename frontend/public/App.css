@@ -226,6 +226,47 @@ html{
 
 
 
+
+
+
+
+
+.leftimg{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.leftimg img{
+    width: 45%;
+    aspect-ratio: 1/1;
+}
+.leftimg h1{
+    margin-top: 0;
+    text-transform: capitalize;
+    width: 50%;
+}
+.leftimg p{
+    margin: 0;
+
+}
+.leftimg div{
+    width: 45%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.leftimg p{
+    width: 100%;
+}
+
+
+
+
+
 .baner {
     width: 100%;
     background-color: black;
@@ -246,7 +287,7 @@ html{
 }
 .baner h1{
     color: white;
-
+    margin-top: 0;
     text-transform: capitalize;
 }
 .baner .grp {
@@ -279,4 +320,81 @@ html{
     font-size: 25px;
     margin-top: 30px;
     text-transform: capitalize;
+}
+
+
+
+
+
+.baner2{
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.baner2 p{
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.baner2 h1{
+    width: 20%;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+.baner2 .grp {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.baner2 .grp div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baner2 .grp div img{
+    width: 100%;
+    aspect-ratio: 1/2;
+
+}
+
+.baner2 .grp div h1{
+    color: white;
+    width: 50%;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.baner2 .grp div p{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+
+
+
+.about-btn{
+    width: 5%;
+    height: 40px;
+    background:  black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+
+  
+    cursor: pointer;
+    display: block;
+    text-transform: capitalize;
+    position: relative;
+    left: 53.5%;
+    top: -350px;
 }
