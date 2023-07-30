@@ -442,3 +442,56 @@ html{
 .review .checked {
     color: orange;
   }
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer .grp {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .grp div{
+    width: 20%;
+    color: white;
+}
+.footer .grp div h1{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.footer .grp :first-child h1{
+    font-size: 45px;
+    margin-top: 0;
+}
+.footer .grp div p{
+    width: 80%;
+    font-size: 12px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-top: 70px;
+}
+.footer .grp div a{
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+}

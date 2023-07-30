@@ -1,5 +1,6 @@
 import Baner from './baner1';
 import Baner2 from './baner2';
+import Footer from './footer';
 import Leftimg from './leftimg';
 import logo from './logo.svg';
 import Main from './main';
@@ -39,7 +40,7 @@ function App() {
          />
         
         <Review name="john wick" city="new york , usa" msg={msg} />
-
+        <Footer />
 
     </>
   );
