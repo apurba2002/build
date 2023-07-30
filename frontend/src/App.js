@@ -5,11 +5,13 @@ import logo from './logo.svg';
 import Main from './main';
 import Navbar from './navbar';
 import Projeect from './project';
+import Review from './review';
 import Rightimg from './rightimg';
 
 
 function App() {
   let ritxt1 = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+  const msg="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla dignissim pellentesque. Donec sed hendrerit mi, ac finibus tortor. Fusce mattis, justo et imperdiet volutpat.";
   return (
     <>
       <Navbar />
@@ -28,13 +30,17 @@ function App() {
         <Rightimg img="idea2.png" head="stay connected and stay updated"
         txt={ritxt1} />
         <Baner2 />
-        <Leftimg img="sky2.jpeg" head="we keep your investment safe and secure."
+        <Leftimg img="sky2.jpeg" head="know more about investo club"
         txt={ritxt1} />
         <button className="about-btn">about us</button>
         <Rightimg img="map.png" head="see our projects in your area"
         txt={ritxt1} />
         <Leftimg img="mac .jpg" head="what our customers are saying "
          />
+        
+        <Review name="john wick" city="new york , usa" msg={msg} />
+
+
     </>
   );
 }
@@ -50,6 +56,10 @@ export function projecthide() {
   window.location.href = "#project-show"
 
 }
+
+
+
+
 
 
 export default App;
