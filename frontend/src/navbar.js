@@ -8,13 +8,13 @@ function Navbar() {
                 </div>
                 <div className="mid">
                     <a href="#">Home</a>
-                    <a href="#">How it works</a>
-                    <a href="#">Projects</a>
-                    <a href="#">About Us</a>
+                    <a href="#baner">How it works</a>
+                    <a href="#project">Projects</a>
+                    <a href="#about">About Us</a>
 
                 </div>
                 <div className="right">
-                    <a href="#">Contact Us</a>
+                    <a href="#footer">Contact Us</a>
                     <button>
                         Sign up
                     </button>

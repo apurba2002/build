@@ -28,19 +28,23 @@ function App() {
         txt={ritxt1} />
         <Leftimg img="idea1.png" head="we keep your investment safe and secure."
         txt={ritxt1} />
-        <Rightimg img="idea2.png" head="stay connected and stay updated"
+        <Rightimg img="idea3.png" head="stay connected and stay updated"
         txt={ritxt1} />
         <Baner2 />
-        <Leftimg img="sky2.jpeg" head="know more about investo club"
+       <div id="about" >
+       <Leftimg img="sky2.jpeg" head="know more about investo club"
         txt={ritxt1} />
+       </div>
         <button className="about-btn">about us</button>
         <Rightimg img="map.png" head="see our projects in your area"
         txt={ritxt1} />
+        <div id="review">
         <Leftimg img="mac .jpg" head="what our customers are saying "
          />
         
         <Review name="john wick" city="new york , usa" msg={msg} />
         <Footer />
+        </div>
 
     </>
   );
@@ -54,7 +58,7 @@ export function projectshow() {
 export function projecthide() {
   document.querySelector("#project-hide").style.display = "none"
   document.querySelector("#psb").style.display = "block"
-  window.location.href = "#project-show"
+  window.location.href = "#project"
 
 }
 

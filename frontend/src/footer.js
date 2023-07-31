@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <>
-            <div className="footer">
+            <div className="footer" id="footer">
                 <div className="grp">
                     <div>
                         <h1>investo club</h1>
@@ -10,19 +10,19 @@ function Footer(){
                     </div>
                     <div>
                         <h1>company</h1>
-                        <a>about us </a>
+                        <a href="#about">about us </a>
                         <a>our policy</a>
-                        <a>how it works</a>
-                        <a>reviews</a>
+                        <a href="#baner" >how it works</a>
+                        <a href="#review" >reviews</a>
 
 
                     </div>
                     <div>
                         <h1>proparties</h1>
-                        <a>mumbai</a>
-                        <a>hyderabad</a>
-                        <a>new delhi</a>
-                        <a>indore</a>
+                        <a href="#baner2" >mumbai</a>
+                        <a  href="#baner2" >hyderabad</a>
+                        <a  href="#baner2" > new delhi</a>
+                        <a  href="#baner2" >indore</a>
 
                     </div>
                     <div>

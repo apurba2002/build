@@ -4,7 +4,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
-    scroll-margin: 10px;
+    scroll-padding-top: 20px;
 }
 .navbar{
     width: 70%;
@@ -64,24 +64,28 @@ html{
 
 }
 .main .left{
-    width: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 
 }
 .main .left h1{
     font-size: 4rem;
     position: relative;
-    left: 40.5%;
+    left: 30%;
     letter-spacing: 2px;
-    line-height: 20px;
+    margin: 0;
  
 }
 .main .left p{
    position: relative;
-   left: 40.5%;
+   left: 30%;
    width: 50%;
 }
 .main .right {
-    width: 60%;
+    width: 50%;
 }
 .main .right img {
     width: 100%;
@@ -101,19 +105,19 @@ html{
     border: none;
     border-radius: 10px;
     position: relative;
-    left: 40.5%;
+    left: 30%;
     text-transform: capitalize;
+    cursor: pointer;
 }
-.main .left :first-child{
-    margin-top: 20%;
-}
+
+
 @keyframes mainanimation {
     from{
         width: 0%;
         
     }
     to{
-        width: 100%;
+        width: 110%;
     }
 }
 
@@ -204,7 +208,7 @@ html{
 .rightimg h1{
     margin-top: 0;
     text-transform: capitalize;
-    width: 50%;
+    width: 60%;
 }
 .rightimg p{
     margin: 0;
@@ -246,7 +250,7 @@ html{
 .leftimg h1{
     margin-top: 0;
     text-transform: capitalize;
-    width: 50%;
+    width: 70%;
 }
 .leftimg p{
     margin: 0;
@@ -368,7 +372,7 @@ html{
 
 .baner2 .grp div h1{
     color: white;
-    width: 50%;
+    width: 60%;
     text-transform: capitalize;
     font-size: 25px;
 }
@@ -494,4 +498,77 @@ html{
     display: block;
     margin-bottom: 20px;
     font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+@media (max-width:1440px){
+    .about-btn {
+        top: -300px;
+    }
+    .review{
+        top: -330px;
+    }
+    .footer .grp :first-child h1 {
+        font-size: 36px;
+    }
+}
+@media (max-width:1024px){
+    .footer .grp :first-child h1 {
+        font-size: 26px;
+    }
+    .footer .grp div p {
+        margin-top: 88px;
+    }
+    .review{
+        top: -280px;
+    }
+    .leftimg h1{
+        width: 100%;
+    }
+    .rightimg h1{
+        width: 100%;
+    }
+    .about-btn{
+        width: 10%;
+        top: -245px;
+    }
+    .baner2 h1 {
+        width: 50%;
+    }
+    .baner2 .grp div h1{
+        font-size: 17px;
+    }
+    .baner2 .grp div p{
+        font-size: 12px;
+    }
+    .baner p {
+        width: 50%;
+        font-size: 12px;
+    }
+    .project h1 {
+        font-size: 24px;
+    }
+    .project p{
+        font-size: 12px;
+        
+    }
+    .main .left h1 {
+        font-size: 3rem;
+        width: 130%;
+    }
+    .navbar .mid a {
+        width: 21%;
+    }
+    .navbar .right button {
+        display: none;
+    }
+}
+@media (min-width:1440px){
+    .main .right img{
+        width: 110%;
+    }
 }

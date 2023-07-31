@@ -44,7 +44,7 @@ export function Card_grp(props) {
 function Projeect() {
     return (
         <>
-            <div className="project">
+            <div className="project"         id="project">
                 <p>
                     properties
                 </p>

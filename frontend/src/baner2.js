@@ -1,7 +1,7 @@
 function Baner2 () {
     return (
         <>
-            <div className="baner2" >
+            <div className="baner2" id="baner2" >
                 <p>proparties</p>
                 <h1>
                     we are available in many well known city's
