@@ -1,31 +1,37 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     scroll-padding-top: 20px;
 }
-.navbar{
+
+.navbar {
     width: 70%;
     margin-left: 15%;
     display: flex;
     justify-content: space-between;
 }
-.navbar .left{
+
+.navbar .left {
     width: 20%;
 }
-.navbar .right{
+
+.navbar .right {
     width: 20%;
     display: flex;
     justify-content: end;
 }
-.navbar .mid{
+
+.navbar .mid {
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
-.navbar .mid a{
+
+.navbar .mid a {
     width: 20%;
     display: block;
     text-decoration: none;
@@ -34,7 +40,8 @@ html{
     font-weight: 300;
     text-align: center;
 }
-.navbar .right a{
+
+.navbar .right a {
     width: 50%;
     display: block;
     text-decoration: none;
@@ -44,7 +51,8 @@ html{
     text-align: end;
     margin-right: 20px;
 }
-.navbar .right button{
+
+.navbar .right button {
     width: calc(30%);
     height: 40px;
     margin-top: 25px;
@@ -58,12 +66,13 @@ html{
 
 
 
-.main{
+.main {
     width: 100%;
     display: flex;
 
 }
-.main .left{
+
+.main .left {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -71,32 +80,37 @@ html{
 
 
 }
-.main .left h1{
+
+.main .left h1 {
     font-size: 4rem;
     position: relative;
     left: 30%;
     letter-spacing: 2px;
     margin: 0;
- 
+
 }
-.main .left p{
-   position: relative;
-   left: 30%;
-   width: 50%;
+
+.main .left p {
+    position: relative;
+    left: 30%;
+    width: 50%;
 }
+
 .main .right {
     width: 50%;
 }
+
 .main .right img {
     width: 100%;
-   height: 800px;
-   animation: mainanimation;
-   animation-duration: 2.5s;
- 
-   float: right;
- 
+    height: 800px;
+    animation: mainanimation;
+    animation-duration: 2.5s;
+
+    float: right;
+
 }
-.main .left button{
+
+.main .left button {
     width: calc(30%);
     height: 40px;
     margin-top: 25px;
@@ -112,11 +126,12 @@ html{
 
 
 @keyframes mainanimation {
-    from{
+    from {
         width: 0%;
-        
+
     }
-    to{
+
+    to {
         width: 110%;
     }
 }
@@ -132,39 +147,46 @@ html{
     margin-left: 15%;
     margin-top: 100px;
 }
-.project p{
+
+.project p {
     text-transform: capitalize;
     text-align: center;
     width: 30%;
     margin-left: 35%;
 
 }
-.project h1{
+
+.project h1 {
     text-align: center;
     text-transform: capitalize;
 }
-.project .card-grp{
+
+.project .card-grp {
     display: flex;
     justify-content: space-between;
 }
-.project .card-grp .card{
+
+.project .card-grp .card {
     width: 30%;
     margin-top: 50px;
-  
+
 }
-.project .card-grp .card img{
+
+.project .card-grp .card img {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 10px;
 }
-.project .card-grp .card p{
+
+.project .card-grp .card p {
     width: 90%;
     margin-left: 5%;
 }
-#project-show button{
+
+#project-show button {
     width: 10%;
     height: 40px;
-    background:  black;
+    background: black;
     border: 0;
     border-radius: 10px;
     color: white;
@@ -172,10 +194,11 @@ html{
     margin-top: 50px;
     cursor: pointer;
 }
-#project-hide button{
+
+#project-hide button {
     width: 10%;
     height: 40px;
-    background:  black;
+    background: black;
     border: 0;
     border-radius: 10px;
     color: white;
@@ -183,7 +206,8 @@ html{
     margin-top: 50px;
     cursor: pointer;
 }
-#project-hide{
+
+#project-hide {
     display: none;
 }
 
@@ -193,7 +217,7 @@ html{
 
 
 
-.rightimg{
+.rightimg {
     width: 70%;
     margin-left: 15%;
     display: flex;
@@ -201,27 +225,32 @@ html{
     margin-top: 100px;
     margin-bottom: 200px;
 }
-.rightimg img{
+
+.rightimg img {
     width: 45%;
     aspect-ratio: 1/1;
 }
-.rightimg h1{
+
+.rightimg h1 {
     margin-top: 0;
     text-transform: capitalize;
     width: 60%;
 }
-.rightimg p{
+
+.rightimg p {
     margin: 0;
 
 }
-.rightimg div{
+
+.rightimg div {
     width: 45%;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.rightimg p{
+
+.rightimg p {
     width: 100%;
 }
 
@@ -235,7 +264,7 @@ html{
 
 
 
-.leftimg{
+.leftimg {
     width: 70%;
     margin-left: 15%;
     display: flex;
@@ -243,27 +272,32 @@ html{
     margin-top: 100px;
     margin-bottom: 200px;
 }
-.leftimg img{
+
+.leftimg img {
     width: 45%;
     aspect-ratio: 1/1;
 }
-.leftimg h1{
+
+.leftimg h1 {
     margin-top: 0;
     text-transform: capitalize;
     width: 70%;
 }
-.leftimg p{
+
+.leftimg p {
     margin: 0;
 
 }
-.leftimg div{
+
+.leftimg div {
     width: 45%;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.leftimg p{
+
+.leftimg p {
     width: 100%;
 }
 
@@ -279,27 +313,31 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
 
 }
-.baner p{
+
+.baner p {
     color: white;
     width: 30%;
     text-align: center;
     text-transform: capitalize;
     margin-top: 0;
 }
-.baner h1{
+
+.baner h1 {
     color: white;
     margin-top: 0;
     text-transform: capitalize;
 }
+
 .baner .grp {
     width: 70%;
     display: flex;
     justify-content: space-between;
 
 }
+
 .baner .grp div {
     width: 30%;
     display: flex;
@@ -307,18 +345,21 @@ html{
     align-items: center;
     margin-top: 50px;
 }
+
 .baner .grp div img {
     width: 20%;
     aspect-ratio: 1/1;
 }
-.baner .grp div p{
+
+.baner .grp div p {
     width: 90%;
     text-align: center;
 
     text-transform: capitalize;
 
 }
-.baner .grp div h1{
+
+.baner .grp div h1 {
     width: 50%;
     text-align: center;
     font-size: 25px;
@@ -330,7 +371,7 @@ html{
 
 
 
-.baner2{
+.baner2 {
     width: 100%;
     background: black;
     display: flex;
@@ -339,44 +380,50 @@ html{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.baner2 p{
+
+.baner2 p {
     text-transform: capitalize;
     text-align: center;
     color: white;
     margin: 0;
 }
-.baner2 h1{
+
+.baner2 h1 {
     width: 20%;
     color: white;
     text-transform: capitalize;
     text-align: center;
     margin-top: 20px;
 }
+
 .baner2 .grp {
     width: 70%;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
-.baner2 .grp div{
+
+.baner2 .grp div {
     width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.baner2 .grp div img{
+
+.baner2 .grp div img {
     width: 100%;
     aspect-ratio: 1/2;
 
 }
 
-.baner2 .grp div h1{
+.baner2 .grp div h1 {
     color: white;
     width: 60%;
     text-transform: capitalize;
     font-size: 25px;
 }
-.baner2 .grp div p{
+
+.baner2 .grp div p {
     color: white;
     text-align: center;
     text-transform: capitalize;
@@ -386,15 +433,15 @@ html{
 
 
 
-.about-btn{
+.about-btn {
     width: 5%;
     height: 40px;
-    background:  black;
+    background: black;
     border: 0;
     border-radius: 10px;
     color: white;
 
-  
+
     cursor: pointer;
     display: block;
     text-transform: capitalize;
@@ -407,7 +454,7 @@ html{
 
 
 
-.review{
+.review {
     width: 50%;
     background-color: black;
     display: flex;
@@ -420,32 +467,38 @@ html{
     left: 35%;
     top: -400px;
 }
-.review p{
+
+.review p {
     color: white;
     width: 90%;
     margin-top: 0;
     text-transform: capitalize;
 
 }
-.review :nth-child(3){
+
+.review :nth-child(3) {
     font-size: 16px;
     margin-top: 20px;
 }
-.review h1{
+
+.review h1 {
     color: white;
     width: 90%;
     margin-bottom: 0;
     text-transform: capitalize;
 }
-.review .star{
+
+.review .star {
     width: 90%;
 }
-.review .star span{
+
+.review .star span {
     margin-right: 10px;
 }
+
 .review .checked {
     color: orange;
-  }
+}
 
 
 
@@ -455,7 +508,7 @@ html{
 
 
 
-.footer{
+.footer {
     width: 100%;
     background-color: black;
     padding-top: 100px;
@@ -465,33 +518,39 @@ html{
     align-items: center;
 
 }
+
 .footer .grp {
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
-.footer .grp div{
+
+.footer .grp div {
     width: 20%;
     color: white;
 }
-.footer .grp div h1{
+
+.footer .grp div h1 {
     text-transform: capitalize;
     font-size: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.footer .grp :first-child h1{
+
+.footer .grp :first-child h1 {
     font-size: 45px;
     margin-top: 0;
 }
-.footer .grp div p{
+
+.footer .grp div p {
     width: 80%;
     font-size: 12px;
     line-height: 26px;
     text-transform: capitalize;
     margin-top: 70px;
 }
-.footer .grp div a{
+
+.footer .grp div a {
     text-decoration: none;
     text-transform: capitalize;
     width: 100%;
@@ -505,70 +564,163 @@ html{
 
 
 
-@media (max-width:1440px){
+@media (max-width:1440px) {
     .about-btn {
         top: -300px;
     }
-    .review{
+
+    .review {
         top: -330px;
     }
+
     .footer .grp :first-child h1 {
         font-size: 36px;
     }
 }
-@media (max-width:1024px){
+
+@media (max-width:1024px) {
     .footer .grp :first-child h1 {
         font-size: 26px;
     }
+
     .footer .grp div p {
         margin-top: 88px;
     }
-    .review{
+
+    .review {
         top: -280px;
     }
-    .leftimg h1{
+
+    .leftimg h1 {
         width: 100%;
     }
-    .rightimg h1{
+
+    .rightimg h1 {
         width: 100%;
     }
-    .about-btn{
+
+    .about-btn {
         width: 10%;
         top: -245px;
     }
+
     .baner2 h1 {
         width: 50%;
     }
-    .baner2 .grp div h1{
+
+    .baner2 .grp div h1 {
         font-size: 17px;
     }
-    .baner2 .grp div p{
+
+    .baner2 .grp div p {
         font-size: 12px;
     }
+
     .baner p {
         width: 50%;
         font-size: 12px;
     }
+
     .project h1 {
         font-size: 24px;
     }
-    .project p{
+
+    .project p {
         font-size: 12px;
-        
+
     }
+
     .main .left h1 {
         font-size: 3rem;
         width: 130%;
     }
+
     .navbar .mid a {
         width: 21%;
     }
+
     .navbar .right button {
         display: none;
     }
 }
-@media (min-width:1440px){
-    .main .right img{
+
+@media (min-width:1440px) {
+    .main .right img {
         width: 110%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main .right img {
+        height: 400px;
+    }
+
+    .main .left h1 {
+        font-size: 2rem;
+    }
+
+    .main .left p {
+        font-size: 12px;
+    }
+
+    .project p {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .project h1 {
+        font-size: 20px;
+    }
+
+    #project-show button{
+        width: 20%;
+        margin-left: 40%;
+    }
+    #project-hide button{
+        width: 20%;
+        margin-left: 40%;
+    }
+    .rightimg h1{
+        font-size: 20px;
+    }
+    .rightimg p{
+        font-size: 12px;
+    }
+    .leftimg h1{
+        font-size: 20px;
+    }
+    .leftimg p{
+        font-size: 12px;
+    }
+    .baner h1{
+        font-size: 20px;
+    }
+    .baner p{
+        font-size: 12px;
+    }
+    .baner .grp div img{
+        width: 40%;
+    }
+    .baner2 h1{
+        font-size: 20px;
+    }
+    .baner2 p{
+        font-size: 12px;
+    }
+    .baner2 .grp div h1{
+        font-size: 14px;
+    }
+    .about-btn{
+        top: -236px;
+    }
+    .review h1{
+        font-size: 20px;
+    }
+    .review p{
+        font-size: 12px;
+    }
+    .footer .grp div p{
+        margin-top: 58px;
     }
 }
