@@ -673,54 +673,99 @@ html {
         font-size: 20px;
     }
 
-    #project-show button{
+    #project-show button {
         width: 20%;
         margin-left: 40%;
     }
-    #project-hide button{
+
+    #project-hide button {
         width: 20%;
         margin-left: 40%;
     }
-    .rightimg h1{
+
+    .rightimg h1 {
         font-size: 20px;
     }
-    .rightimg p{
+
+    .rightimg p {
         font-size: 12px;
     }
-    .leftimg h1{
+
+    .leftimg h1 {
         font-size: 20px;
     }
-    .leftimg p{
+
+    .leftimg p {
         font-size: 12px;
     }
-    .baner h1{
+
+    .baner h1 {
         font-size: 20px;
     }
-    .baner p{
+
+    .baner p {
         font-size: 12px;
     }
-    .baner .grp div img{
+
+    .baner .grp div img {
         width: 40%;
     }
-    .baner2 h1{
+
+    .baner2 h1 {
         font-size: 20px;
     }
-    .baner2 p{
+
+    .baner2 p {
         font-size: 12px;
     }
-    .baner2 .grp div h1{
+
+    .baner2 .grp div h1 {
         font-size: 14px;
     }
-    .about-btn{
+
+    .about-btn {
         top: -236px;
     }
-    .review h1{
+
+    .review h1 {
         font-size: 20px;
     }
-    .review p{
+
+    .review p {
         font-size: 12px;
     }
-    .footer .grp div p{
+
+    .footer .grp div p {
         margin-top: 58px;
+    }
+}
+
+@media (max-width:425px) {
+    .main .left h1 {
+        left: 10%;
+        font-size: 21px;
+    }
+
+    .main .left p {
+        left: 10%;
+        width: 80%;
+    }
+
+    .main .left button {
+        left: 10%;
+        width: 50%;
+    }
+
+    .project {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .project p {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .project .card-grp{
+        flex-direction: column;
     }
 }
