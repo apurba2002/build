@@ -767,5 +767,79 @@ html {
     }
     .project .card-grp{
         flex-direction: column;
+        align-items: center;
+    }
+    .project .card-grp .card{
+        width: 100%;
+    }
+    .main .right img{
+        height: 310px;
+        width: 110%;
+       
+    }
+    #project-show button{
+        margin-left: 25%;
+        width: 50%;
+       
+    }
+    #project-hide button{
+        margin-left: 25%;
+        width: 50%;
+       
+    }
+    .rightimg {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 100px;
+    }
+    .leftimg {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 100px;
+    }
+    .baner p{
+        width: 90%;
+    }
+    .baner .grp{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+    .baner .grp div{
+        width: 100%;
+    }
+    .baner2 h1{
+        width: 90%;
+    }
+    .baner2 .grp{
+        flex-direction: column;
+        width: 90%;
+    }
+    .baner2 .grp div{
+        width: 100%;
+        margin-bottom: 50px
+    }
+    .baner2 .grp div img{
+        aspect-ratio: 1/1;
+    }
+    .about-btn {
+        width: 50%;
+        top: 0;
+        left: 25%;
+    }
+    .review{
+        top: -80px;
+        left: 5%;
+        width: 90%;
+    }
+    .footer .grp{
+        flex-direction: column;
+        width: 90%;
+    }
+    .footer .grp div{
+        width: 100%;
+    }
+    .footer .grp div a{
+        margin-bottom: 10px;
     }
 }
