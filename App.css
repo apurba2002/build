@@ -1,0 +1,917 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+.navbar {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .left {
+    width: 20%;
+}
+
+.navbar .right {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar .mid {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .mid a {
+    width: 20%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 35px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.navbar .right a {
+    width: 50%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 35px;
+    font-weight: 300;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.navbar .right button {
+    width: calc(30%);
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+.main {
+    width: 100%;
+    display: flex;
+
+}
+
+.main .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.main .left h1 {
+    font-size: 4rem;
+    position: relative;
+    left: 30%;
+    letter-spacing: 2px;
+    margin: 0;
+
+}
+
+.main .left p {
+    position: relative;
+    left: 30%;
+    width: 50%;
+}
+
+.main .right {
+    width: 50%;
+}
+
+.main .right img {
+    width: 100%;
+    height: 800px;
+    animation: mainanimation;
+    animation-duration: 2.5s;
+
+    float: right;
+
+}
+
+.main .left button {
+    width: calc(30%);
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+@keyframes mainanimation {
+    from {
+        width: 0%;
+
+    }
+
+    to {
+        width: 110%;
+    }
+}
+
+
+
+
+
+
+
+.project {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+.project p {
+    text-transform: capitalize;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+.project h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.project .card-grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .card-grp .card {
+    width: 30%;
+    margin-top: 50px;
+
+}
+
+.project .card-grp .card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.project .card-grp .card p {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#project-show button {
+    width: 10%;
+    height: 40px;
+    background: black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    margin-left: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#project-hide button {
+    width: 10%;
+    height: 40px;
+    background: black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    margin-left: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#project-hide {
+    display: none;
+}
+
+
+
+
+
+
+
+.rightimg {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.rightimg img {
+    width: 45%;
+    aspect-ratio: 1/1;
+}
+
+.rightimg h1 {
+    margin-top: 0;
+    text-transform: capitalize;
+    width: 60%;
+}
+
+.rightimg p {
+    margin: 0;
+
+}
+
+.rightimg div {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightimg p {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.leftimg {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.leftimg img {
+    width: 45%;
+    aspect-ratio: 1/1;
+}
+
+.leftimg h1 {
+    margin-top: 0;
+    text-transform: capitalize;
+    width: 70%;
+}
+
+.leftimg p {
+    margin: 0;
+
+}
+
+.leftimg div {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftimg p {
+    width: 100%;
+}
+
+
+
+
+
+.baner {
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.baner p {
+    color: white;
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.baner h1 {
+    color: white;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.baner .grp {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.baner .grp div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.baner .grp div img {
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+
+.baner .grp div p {
+    width: 90%;
+    text-align: center;
+
+    text-transform: capitalize;
+
+}
+
+.baner .grp div h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+.baner2 {
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.baner2 p {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.baner2 h1 {
+    width: 20%;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.baner2 .grp {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.baner2 .grp div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baner2 .grp div img {
+    width: 100%;
+    aspect-ratio: 1/2;
+
+}
+
+.baner2 .grp div h1 {
+    color: white;
+    width: 60%;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.baner2 .grp div p {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+.about-btn {
+    width: 10%;
+    height: 40px;
+    background: black;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+
+
+    cursor: pointer;
+    display: block;
+    text-transform: capitalize;
+    position: relative;
+    left: 53.5%;
+    top: -350px;
+}
+
+
+
+
+
+.review {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    position: relative;
+    left: 35%;
+    top: -400px;
+}
+
+.review p {
+    color: white;
+    width: 90%;
+    margin-top: 0;
+    text-transform: capitalize;
+
+}
+
+.review :nth-child(3) {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.review h1 {
+    color: white;
+    width: 90%;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.review .star {
+    width: 90%;
+}
+
+.review .star span {
+    margin-right: 10px;
+}
+
+.review .checked {
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer .grp {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .grp div {
+    width: 20%;
+    color: white;
+}
+
+.footer .grp div h1 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer .grp :first-child h1 {
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.footer .grp div p {
+    width: 80%;
+    font-size: 12px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-top: 70px;
+}
+
+.footer .grp div a {
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+@media (max-width:1440px) {
+    .about-btn {
+        top: -300px;
+    }
+
+    .review {
+        top: -330px;
+    }
+
+    .footer .grp :first-child h1 {
+        font-size: 36px;
+    }
+    .navbar .right button {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .footer .grp :first-child h1 {
+        font-size: 26px;
+    }
+
+    .footer .grp div p {
+        margin-top: 88px;
+    }
+
+    .review {
+        top: -280px;
+    }
+
+    .leftimg h1 {
+        width: 100%;
+    }
+
+    .rightimg h1 {
+        width: 100%;
+    }
+
+    .about-btn {
+        width: 10%;
+        top: -245px;
+    }
+
+    .baner2 h1 {
+        width: 50%;
+    }
+
+    .baner2 .grp div h1 {
+        font-size: 17px;
+    }
+
+    .baner2 .grp div p {
+        font-size: 12px;
+    }
+
+    .baner p {
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .project h1 {
+        font-size: 24px;
+    }
+
+    .project p {
+        font-size: 12px;
+
+    }
+
+    .main .left h1 {
+        font-size: 3rem;
+        width: 130%;
+    }
+
+    .navbar .mid a {
+        width: 21%;
+    }
+    .navbar .right button {
+        display: none;
+    }
+
+   
+}
+
+@media (min-width:1440px) {
+    .main .right img {
+        width: 110%;
+    }
+    
+}
+.nav-hide , .nav-res{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .main .right img {
+        height: 400px;
+    }
+
+    .main .left h1 {
+        font-size: 2rem;
+    }
+
+    .main .left p {
+        font-size: 12px;
+    }
+
+    .project p {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .project h1 {
+        font-size: 20px;
+    }
+
+    #project-show button {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #project-hide button {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    .rightimg h1 {
+        font-size: 20px;
+    }
+
+    .rightimg p {
+        font-size: 12px;
+    }
+
+    .leftimg h1 {
+        font-size: 20px;
+    }
+
+    .leftimg p {
+        font-size: 12px;
+    }
+
+    .baner h1 {
+        font-size: 20px;
+    }
+
+    .baner p {
+        font-size: 12px;
+    }
+
+    .baner .grp div img {
+        width: 40%;
+    }
+
+    .baner2 h1 {
+        font-size: 20px;
+    }
+
+    .baner2 p {
+        font-size: 12px;
+    }
+
+    .baner2 .grp div h1 {
+        font-size: 14px;
+    }
+
+    .about-btn {
+        top: -236px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+    }
+
+    .review p {
+        font-size: 12px;
+    }
+
+    .footer .grp div p {
+        margin-top: 58px;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar{
+        display: none;
+    }
+    .main .left h1 {
+        left: 10%;
+        font-size: 21px;
+    }
+
+    .main .left p {
+        left: 10%;
+        width: 80%;
+    }
+
+    .main .left button {
+        left: 10%;
+        width: 50%;
+    }
+
+    .project {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .project p {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .project .card-grp{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project .card-grp .card{
+        width: 100%;
+    }
+    .main .right img{
+        height: 310px;
+        width: 110%;
+       
+    }
+    #project-show button{
+        margin-left: 25%;
+        width: 50%;
+       
+    }
+    #project-hide button{
+        margin-left: 25%;
+        width: 50%;
+       
+    }
+    .rightimg {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 100px;
+    }
+    .leftimg {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 100px;
+    }
+    .baner p{
+        width: 90%;
+    }
+    .baner .grp{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+    .baner .grp div{
+        width: 100%;
+    }
+    .baner2 h1{
+        width: 90%;
+    }
+    .baner2 .grp{
+        flex-direction: column;
+        width: 90%;
+    }
+    .baner2 .grp div{
+        width: 100%;
+        margin-bottom: 50px
+    }
+    .baner2 .grp div img{
+        aspect-ratio: 1/1;
+    }
+    .about-btn {
+        width: 50%;
+        top: 0;
+        left: 25%;
+    }
+    .review{
+        top: -80px;
+        left: 5%;
+        width: 90%;
+    }
+    .footer .grp{
+        flex-direction: column;
+        width: 90%;
+    }
+    .footer .grp div{
+        width: 100%;
+    }
+    .footer .grp div a{
+        margin-bottom: 10px;
+    }
+    .nav-res{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 20;
+        background-color: white;
+      
+        
+    }
+    .nav-res .nav-show{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+    .nav-res .nav-show img {
+        width: 5%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+
+    }
+    .nav-hide{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        position: absolute;
+        top: -800px;
+        z-index: 10;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        transition: 1.5s;
+        
+        
+    }
+    .nav-hide a{
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        
+    }
+    .nav-hide button{
+        padding: 10px;
+        width: 50%;
+        background-color: white;
+        border: 0px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .show{
+        top: 80px;
+       transition: 1.5s;
+
+    }
+
+}
