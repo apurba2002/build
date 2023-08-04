@@ -428,13 +428,15 @@ html {
     text-align: center;
     text-transform: capitalize;
     width: 100%;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 
 
 
 .about-btn {
-    width: 5%;
+    width: 10%;
     height: 40px;
     background: black;
     border: 0;
@@ -576,6 +578,9 @@ html {
     .footer .grp :first-child h1 {
         font-size: 36px;
     }
+    .navbar .right button {
+        display: none;
+    }
 }
 
 @media (max-width:1024px) {
@@ -638,16 +643,18 @@ html {
     .navbar .mid a {
         width: 21%;
     }
-
     .navbar .right button {
         display: none;
     }
+
+   
 }
 
 @media (min-width:1440px) {
     .main .right img {
         width: 110%;
     }
+    
 }
 
 
@@ -740,7 +747,7 @@ html {
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:768px) {
     .main .left h1 {
         left: 10%;
         font-size: 21px;
